@@ -6,7 +6,7 @@ passport.use(
 		{
 			clientID: process.env.CLIENT_ID,
 			clientSecret: process.env.CLIENT_SECRET,
-			callbackURL: "https://test-auth-ebon.vercel.app/auth/google/callback",
+			callbackURL: "https://test-auth-i3lu.onrender.com/auth/google/callback",
 			scope: ["profile", "email"],
 		},
 		function (accessToken, refreshToken, profile, callback) {
